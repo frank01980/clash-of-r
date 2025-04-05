@@ -39,10 +39,13 @@ a {
 	-ms-transition: all 0.2s ease-in-out 0s;
 	-o-transition: all 0.2s ease-in-out 0s;
 	transition: all 0.2s ease-in-out 0s;
+    color: #587395;
+    
 }
 a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:active, button:focus {
 	text-decoration: none !important;
 	outline: none !important;
+    color: #fff2c3;
 }
 ::selection {
 	background: #000;
@@ -123,7 +126,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
     -ms-animation: overlay .5s .5s forwards;
     animation: overlay .5s .5s forwards;
     background-attachment: fixed, fixed;
-    background-image: url(https://i.postimg.cc/9QrNBDD7/download-1.png), url(../img/overlay.svg);
+    background-image: url(https://i.postimg.cc/TPJcFjBW/super-smash-bros-ultimate-pikachu-hd-wallpaper-preview.jpg), url(../img/overlay.svg);
     background-position: top left, center center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -173,7 +176,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 --------------------------------------------------------------*/
 .app-download-section {
 	position: relative;
-	padding: 12% 0 80px 0;
+	padding: 12% 0 40px 0;
 }
 .app-download-wrapper {
 	max-width: 700px;
@@ -260,19 +263,21 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 	color: #4fe16b;
 }
 .app-download-main p.app-download-intro-text {
-	font-size: 1.4em;
-	color: #999;
+	font-size: 1em;
+	color: #808080;
 	font-weight: 300;
-	max-width: 89%;
+	max-width: 100%;
 	margin: 0 auto;
+    padding-bottom: 10px;
 }
+
 .platform-field-wrapper {
 	position: relative;
 }
 .platform-item1 {
 	background: #eee;
 	border-radius: 10px;
-	padding: 20px 10px;
+	padding: 10px 5px;
     position: relative;
 	text-align: center;
 	-webkit-animation-duration: 0.7s;
@@ -361,7 +366,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 	display: block;
 }
 .platform-item.active {
-	background: #8400ff;
+	background: #587395;
 }
 .platform-item.active i {
 	color: #fff;
@@ -383,7 +388,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 }
 .generator-header {
 	text-align: center;
-	background: #8400ff;
+	background: #587395;
 	color: #fff;
 	font-size: 1.8em;
 	-webkit-border-top-left-radius: 30px;
@@ -466,7 +471,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 	display: block;
 	text-align: center;
 	margin: 20px auto;
-	color: #8400ff;
+	color: #587395;
 }
 #verification-button {
 	color: #fff;
@@ -502,10 +507,10 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 # Button
 --------------------------------------------------------------*/
 .button-wrapper {
-	margin: 30px auto 0 auto;
+	margin: 0 auto 0 auto;
 }
 .button {
-	background: #8400ff;
+	background: #f2fa00;
 	display: table;
 	margin: 0 auto;
 	padding: 25px 35px 25px 55px;
@@ -522,7 +527,7 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 	font-size: 1.4em;
 }
 .button:hover {
-	background: #8400ff;
+	background: #587395;
 	color: #fff;
 }
 .button span.lnr {
@@ -547,7 +552,6 @@ a:hover, a:visited, a:focus, a:active, button:hover, button:visited, button:acti
 # Footer
 --------------------------------------------------------------*/
 footer {
-	margin-top: 320px;
 	text-align: center;
 	padding: 5px 0;
 	color: rgba(255, 255, 255, 0.5);
@@ -560,7 +564,7 @@ footer {
 # Loader
 --------------------------------------------------------------*/
 .loader {
-  color: #8400ff;
+  color: #f2fa00;
   font-size: 70px;
   text-indent: -9999em;
   overflow: hidden;
@@ -655,7 +659,7 @@ footer {
 		max-width: 800px;
 	}
 	.button {
-		padding: 15px 25px 15px 45px;
+		padding: 15px 45px 15px 45px;
 		letter-spacing: 1px;
 	}
 	.button span.lnr {
@@ -678,7 +682,7 @@ footer {
 		max-width: 120px;
 	}
 	.button {
-		padding: 12px 15px 10px 45px;
+		padding: 12px 45px 10px 45px;
 		letter-spacing: 0;
 	}
 	.button span.lnr {
@@ -701,7 +705,7 @@ footer {
 		display: none;
 	}
 	.app-download-main p.app-download-intro-text {
-		font-size: 1.2em;
+		font-size: 1em;
 		max-width: 100%;
 	}
 	.button {
